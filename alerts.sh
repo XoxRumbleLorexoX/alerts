@@ -11,20 +11,20 @@ date=$(date)
 function messageC() {
   if [[ $cuz2 == 1 ]];
   then
-    imessage -t "192.168.0.21, Thanga is home. $date" -c sixrumblelorexis@gmail.com # here too & also replace my apple id with yours
+    imessage -t "192.168.0.21, x is home. $date" -c sixrumblelorexis@gmail.com # here too & also replace my apple id with yours
   elif [[ $cuz2 == 0 ]];
   then
-    imessage -t "192.168.0.21, Thanga is not home. $date" -c sixrumblelorexis@gmail.com #here too & also replace my apple id with yours
+    imessage -t "192.168.0.21, x is not home. $date" -c sixrumblelorexis@gmail.com #here too & also replace my apple id with yours
   fi
 }
 
 function messageM() {
   if [[ $mother1 == 1 ]];
   then
-    imessage -t "192.168.0.11, Mum is home. $date" -c sixrumblelorexis@gmail.com # here too & also replace my apple id with yours
+    imessage -t "192.168.0.11, y is home. $date" -c sixrumblelorexis@gmail.com # here too & also replace my apple id with yours
   elif [[ $mother1 == 0 ]];
   then
-    imessage -t "192.168.0.11, Mum is not home. $date" -c sixrumblelorexis@gmail.com #here too & also replace my apple id with yours
+    imessage -t "192.168.0.11, y is not home. $date" -c sixrumblelorexis@gmail.com #here too & also replace my apple id with yours
   fi
 }
 
